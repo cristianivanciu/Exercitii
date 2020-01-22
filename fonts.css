@@ -1,7 +1,40 @@
+
+body {
+    box-sizing: border-box;
+}
+
 #p1 {
-    font-weight: bolder;
+    font-weight: bold;
+    font-family: 'Roboto Condensed';
+    font-size: 1.2em;
+    text-align: center;
+    border: 1px dashed rgb(255, 255, 255);
+    border-radius: 1em;
+    padding: 15px 30px;
+    margin: auto;
+    background: aquamarine  url(background.gif) center no-repeat;
+    color: rgb(63, 92, 65);
+    width: 250px;
+    height: 250px;
+
 }
 
 p {
     font-weight: normal;
+    line-height: 1.2em;
+}
+#p1 span {
+    color: rgb(196, 101, 19);
+}
+
+div {
+    background-color: seagreen;
+    border: 5px solid red;
+    padding: 10px;
+}
+
+div div {
+    background-color: slateblue;
+    border: 2px solid black;
+    width: 75%;
 }
