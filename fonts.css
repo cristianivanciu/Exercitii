@@ -34,7 +34,7 @@ div {
 }
 
 div div {
-    background-color: slateblue;
+    background-color: rgb(205, 90, 205);
     border: 2px solid black;
     width: 75%;
 }
