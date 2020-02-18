@@ -1,0 +1,14 @@
+nav {
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    justify-content: space-between;
+}
+div:first-child {
+    background-color: burlywood;
+}
+div:nth-child(2) {
+    background-color: darkcyan;
+}
+div:last-child {
+    background-color: darkgreen;
+}
